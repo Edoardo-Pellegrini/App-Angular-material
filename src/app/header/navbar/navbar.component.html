@@ -1,0 +1,26 @@
+
+
+
+<mat-toolbar>
+
+  <a  [routerLink]="['/home']" routerLinkActive="router-link-active" >{{myname}}</a>
+  <span class="example-spacer"></span>
+
+  <a  [routerLink]="['/home']" routerLinkActive="router-link-active" ><mat-icon>home</mat-icon></a>
+
+
+
+  <a [routerLink]="['/users']" routerLinkActive="router-link-active" ><mat-icon>people</mat-icon></a>
+
+
+  <a [routerLink]="['/login']" routerLinkActive="router-link-active" ><mat-icon>login</mat-icon></a>
+
+
+  <a [routerLink]="['/signup']" routerLinkActive="router-link-active" ><mat-icon>account_box</mat-icon></a>
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon" (click)="logout()">
+    <mat-icon>power_settings_new</mat-icon>
+  </button>
+</mat-toolbar>
+<hr>
+

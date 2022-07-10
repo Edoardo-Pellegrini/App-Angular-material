@@ -1,0 +1,30 @@
+
+<mat-card>
+  <mat-card-header >
+    <mat-card-title>Login Page</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form #f="ngForm" (ngSubmit)="onSubmit()">
+      <div >
+
+        <label for="email" >Email</label>
+        <input matImput type="email" ngModel name="email"  id="email">
+      </div>
+      <div >
+        <label for="password" >Password</label>
+        <input matImput type="password" ngModel name="password"  id="password">
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+  </mat-card-content>
+  <mat-card-footer>
+    <div  *ngIf="error">
+      {{error}}
+    </div>
+  </mat-card-footer>
+</mat-card>
+
+

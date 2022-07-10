@@ -1,0 +1,33 @@
+mat-card{
+  width: 60%;
+  margin: 0 auto;
+  padding: 2rem;
+  border-left: 4px solid rgb(41, 98, 196);
+  border-bottom:  4px solid rgb(15, 75, 147);
+}
+
+
+div{
+  margin: 5rem auto;
+  width: 60%;
+  h1{
+
+    border-bottom: 2px solid rgb(59, 59, 235);
+    border-bottom-left-radius: 10%;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    background-color: rgba(100, 100, 206, 0.73);
+    margin-bottom: 0;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding: 0.5rem;
+
+  }
+  p:nth-child(3){
+    background-color: rgba(103, 171, 230, 0.719);
+  }
+
+}
